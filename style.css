@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.swiper-slide{
+    position: relative;
+}
+.swipercontent{
+    position:relative;
+    padding:80px 60px;
+    background: #ffe6e6;
+    margin:50px 20%;
+    z-index: 2;
+}
+.swipericon{
+    position:absolute;
+    top:20px;
+    left:22%;
+    z-index: 5;
+}
+.swipericon img{
+    max-width: 100%;
+    height:auto;
+}
